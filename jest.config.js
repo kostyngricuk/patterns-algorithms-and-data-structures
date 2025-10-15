@@ -1,6 +1,9 @@
-export default {
+module.exports = {
   testEnvironment: 'node',
-  transform: {},
+  transformIgnorePatterns: ['node_modules/(?!(sucrase)/)'],
+  transform: {
+    '^.+\\.(js|jsx|ts|tsx|mjs)$': 'babel-jest',
+  },
   moduleNameMapper: {
     '^(\\.{1,2}/.*)\\.js$': '$1',
   },
