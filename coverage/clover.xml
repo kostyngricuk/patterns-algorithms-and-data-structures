@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1760504835321" clover="3.2.0">
+  <project timestamp="1760504835321" name="All files">
+    <metrics statements="82" coveredstatements="82" conditionals="26" coveredconditionals="26" methods="9" coveredmethods="9" elements="117" coveredelements="117" complexity="0" loc="82" ncloc="82" packages="6" files="6" classes="6"/>
+    <package name="search.binarySearch">
+      <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="/Users/kanstantsinhrytsuk/www/pet-projects/patterns-algorithms-and-data-structures/examples/algorithms/search/binarySearch/index.js">
+        <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="search.linearSearch">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="/Users/kanstantsinhrytsuk/www/pet-projects/patterns-algorithms-and-data-structures/examples/algorithms/search/linearSearch/index.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="sort.bubbleSort">
+      <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="/Users/kanstantsinhrytsuk/www/pet-projects/patterns-algorithms-and-data-structures/examples/algorithms/sort/bubbleSort/index.js">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="16" type="stmt"/>
+        <line num="8" count="16" type="stmt"/>
+        <line num="9" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="27" type="stmt"/>
+        <line num="12" count="27" type="stmt"/>
+        <line num="17" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="sort.mergeSort">
+      <metrics statements="24" coveredstatements="24" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="index.js" path="/Users/kanstantsinhrytsuk/www/pet-projects/patterns-algorithms-and-data-structures/examples/algorithms/sort/mergeSort/index.js">
+        <metrics statements="24" coveredstatements="24" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="2057" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="1033" type="stmt"/>
+        <line num="8" count="1024" type="stmt"/>
+        <line num="9" count="1024" type="stmt"/>
+        <line num="10" count="1024" type="stmt"/>
+        <line num="13" count="1024" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1024" type="stmt"/>
+        <line num="18" count="1024" type="stmt"/>
+        <line num="19" count="1024" type="stmt"/>
+        <line num="22" count="1024" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="8772" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="4356" type="stmt"/>
+        <line num="25" count="4356" type="stmt"/>
+        <line num="27" count="4416" type="stmt"/>
+        <line num="28" count="4416" type="stmt"/>
+        <line num="33" count="1024" type="stmt"/>
+        <line num="34" count="610" type="stmt"/>
+        <line num="35" count="610" type="stmt"/>
+        <line num="39" count="1024" type="stmt"/>
+        <line num="40" count="672" type="stmt"/>
+        <line num="41" count="672" type="stmt"/>
+        <line num="44" count="1024" type="stmt"/>
+      </file>
+    </package>
+    <package name="sort.quickSort">
+      <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="index.js" path="/Users/kanstantsinhrytsuk/www/pet-projects/patterns-algorithms-and-data-structures/examples/algorithms/sort/quickSort/index.js">
+        <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="52" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="22" type="stmt"/>
+        <line num="11" count="22" type="stmt"/>
+        <line num="12" count="22" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="18" count="22" type="stmt"/>
+        <line num="19" count="22" type="stmt"/>
+        <line num="21" count="22" type="stmt"/>
+        <line num="23" count="61" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="38" type="stmt"/>
+        <line num="25" count="38" type="stmt"/>
+        <line num="30" count="22" type="stmt"/>
+        <line num="31" count="22" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="35" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="sort.selectionSort">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="/Users/kanstantsinhrytsuk/www/pet-projects/patterns-algorithms-and-data-structures/examples/algorithms/sort/selectionSort/index.js">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="7" count="22" type="stmt"/>
+        <line num="9" count="22" type="stmt"/>
+        <line num="10" count="61" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="20" type="stmt"/>
+        <line num="16" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="12" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
