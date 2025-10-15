@@ -2,46 +2,78 @@
 sidebar_position: 1
 ---
 
-# Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to **Patterns, Algorithms and Data Structures** - a comprehensive guide to fundamental computer science concepts with practical JavaScript implementations.
+
+## What You'll Learn
+
+This documentation covers essential topics for software developers:
+
+- **Algorithms**: Common algorithms for searching, sorting, and problem-solving
+- **Data Structures**: Fundamental data structures and their implementations
+- **Design Patterns**: Reusable solutions to common software design problems
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Explore the documentation to learn about different algorithms and data structures. Each topic includes:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- Detailed explanations of concepts
+- Time and space complexity analysis
+- JavaScript implementation examples
+- Test cases demonstrating usage
 
-### What you'll need
+## Running the Examples
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+All examples are located in the `examples/` directory and include unit tests.
 
-## Generate a new site
+### Prerequisites
 
-Generate a new Docusaurus site using the **classic template**.
+- [Node.js](https://nodejs.org/en/download/) version 20.0 or above
+- Yarn package manager
 
-The classic template will automatically be added to your project after you run the command:
+### Installation
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+Install dependencies using Yarn:
 
 ```bash
-cd my-website
-npm run start
+yarn install
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+### Running Tests
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Execute all tests:
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+```bash
+yarn test
+```
+
+Run tests for a specific algorithm:
+
+```bash
+yarn test <algorithm-name>
+```
+
+### Development Server
+
+Start the documentation site locally:
+
+```bash
+yarn start
+```
+
+The site will be available at <http://localhost:3000/>.
+
+## Project Structure
+
+```text
+docs/          # Documentation files
+examples/      # JavaScript implementations with tests
+  algorithms/  # Algorithm implementations
+    search/    # Search algorithms
+    sort/      # Sorting algorithms
+```
+
+## Contributing
+
+Feel free to explore the code, run the tests, and experiment with the implementations!
