@@ -13,7 +13,6 @@ This repository contains practical implementations and explanations of:
 - **🏗️ Design Patterns** - Creational, Structural, and Behavioral patterns
 - **⚡ Algorithms** - Sorting, searching, graph algorithms, dynamic programming, and more
 - **📊 Data Structures** - Arrays, linked lists, trees, graphs, heaps, hash tables, and beyond
-- **💡 Problem-Solving Techniques** - Common coding interview patterns and approaches
 
 Each topic includes:
 
@@ -50,82 +49,6 @@ yarn start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## 📖 Documentation Structure
-
-### Design Patterns
-
-- **Creational Patterns**
-  - Singleton
-  - Factory Method
-  - Abstract Factory
-  - Builder
-  - Prototype
-
-- **Structural Patterns**
-  - Adapter
-  - Bridge
-  - Composite
-  - Decorator
-  - Facade
-  - Flyweight
-  - Proxy
-
-- **Behavioral Patterns**
-  - Observer
-  - Strategy
-  - Command
-  - Template Method
-  - Chain of Responsibility
-  - State
-  - Visitor
-  - Mediator
-  - Memento
-  - Iterator
-
-### Data Structures
-
-- **Linear Data Structures**
-  - Arrays and Dynamic Arrays
-  - Linked Lists (Singly, Doubly, Circular)
-  - Stacks and Queues
-  - Deques
-
-- **Non-Linear Data Structures**
-  - Binary Trees and Binary Search Trees
-  - AVL Trees and Red-Black Trees
-  - Heaps (Min/Max Heap)
-  - Tries (Prefix Trees)
-  - Graphs (Directed/Undirected)
-
-- **Hash-Based Structures**
-  - Hash Tables/Maps
-  - Hash Sets
-  - Bloom Filters
-
-### Algorithms
-
-- **Sorting Algorithms**
-  - Bubble Sort, Selection Sort, Insertion Sort
-  - Merge Sort, Quick Sort, Heap Sort
-  - Counting Sort, Radix Sort, Bucket Sort
-
-- **Searching Algorithms**
-  - Linear Search, Binary Search
-  - Depth-First Search (DFS)
-  - Breadth-First Search (BFS)
-
-- **Graph Algorithms**
-  - Dijkstra's Algorithm
-  - Bellman-Ford Algorithm
-  - Floyd-Warshall Algorithm
-  - Kruskal's and Prim's MST Algorithms
-
-- **Dynamic Programming**
-  - Fibonacci Sequences
-  - Knapsack Problems
-  - Longest Common Subsequence
-  - Edit Distance
 
 ## 🛠️ Development
 
