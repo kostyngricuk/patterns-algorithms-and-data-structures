@@ -1,5 +1,7 @@
 # Website
 
+[GitHub Pages link](https://kostyngricuk.github.io/patterns-algorithms-and-data-structures/)
+
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ## Installation
