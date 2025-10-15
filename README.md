@@ -105,7 +105,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Author**: Kanstantsin Hrytsuk
+- **Author**: [Kanstantsin Hrytsuk](https://www.linkedin.com/in/kanstantsin-hrytsuk/)
 - **GitHub**: [@kostyngricuk](https://github.com/kostyngricuk)
 - **Project Link**: [https://github.com/kostyngricuk/patterns-algorithms-and-data-structures](https://github.com/kostyngricuk/patterns-algorithms-and-data-structures)
 
