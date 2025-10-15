@@ -62,8 +62,6 @@ Start the documentation site locally:
 yarn start
 ```
 
-The site will be available at <http://localhost:3000/>.
-
 ## Project Structure
 
 ```text
