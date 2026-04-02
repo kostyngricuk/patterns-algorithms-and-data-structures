@@ -2,7 +2,7 @@
 
 Linear search is a simple searching algorithm that finds the position of a target value within an array. It sequentially checks each element of the array until a match is found or the entire array has been searched.
 
-## Algorithm Description
+## Description
 
 Linear search works by examining each element in the array one by one, starting from the first element, until either:
 
@@ -35,7 +35,7 @@ const linearSearch = (arr, target) => {
 export default linearSearch;
 ```
 
-## Test Cases
+### Test Cases
 
 View the [linear search tests](https://github.com/kostyngricuk/patterns-algorithms-and-data-structures/blob/master/examples/algorithms/search/linearSearch/index.test.js) on GitHub.
 
@@ -56,7 +56,7 @@ The implementation includes comprehensive test cases that verify:
    linearSearch(arr, 6); // Returns -1
    ```
 
-## Use Cases
+## When to Use ?
 
 Linear search is useful when:
 

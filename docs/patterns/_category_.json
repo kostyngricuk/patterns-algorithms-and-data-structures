@@ -1,0 +1,9 @@
+{
+  "label": "Patterns",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "slug": "/patterns",
+    "description": "Helpful for writing clean and maintainable code"
+  }
+}

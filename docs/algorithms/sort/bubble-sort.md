@@ -2,7 +2,7 @@
 
 Bubble sort is one of the simplest sorting algorithms. It works by repeatedly stepping through the list, comparing adjacent elements and swapping them if they are in the wrong order. The algorithm gets its name because smaller elements "bubble" to the beginning of the list, just like air bubbles rise to the surface of water.
 
-## Algorithm Description
+## Description
 
 Bubble sort works by making multiple passes through the array:
 
@@ -90,7 +90,7 @@ The implementation includes comprehensive test cases that verify:
 
 5. **Non-destructive sorting:** Does not mutate the original array
 
-## When to Use Bubble Sort
+## When to Use ?
 
 Bubble sort is appropriate when:
 

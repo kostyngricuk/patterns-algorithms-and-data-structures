@@ -15,32 +15,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Patterns',
     Svg: MountainIcon,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Helpful for writing clean and maintainable code
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Algorithms',
     Svg: TreeIcon,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Popular algorithms with test cases
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Data Structures',
     Svg: ReactIcon,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Traditional data structures for everyday tasks
       </>
     ),
   },

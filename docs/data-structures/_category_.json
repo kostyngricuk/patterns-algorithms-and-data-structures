@@ -1,0 +1,9 @@
+{
+  "label": "Data Structures",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "slug": "/data-structures",
+    "description": "Traditional data structures for everyday programming tasks"
+  }
+}

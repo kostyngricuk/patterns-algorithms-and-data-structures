@@ -2,7 +2,7 @@
 
 Selection sort is a simple comparison-based sorting algorithm. It works by dividing the array into two parts: a sorted portion at the beginning and an unsorted portion at the end. The algorithm repeatedly finds the minimum element from the unsorted portion and swaps it with the first element of the unsorted portion.
 
-## Algorithm Description
+## Description
 
 Selection sort works by maintaining two subarrays:
 
@@ -98,7 +98,7 @@ The implementation includes comprehensive test cases that verify:
 
 6. **Non-destructive sorting:** Does not mutate the original array
 
-## When to Use Selection Sort
+## When to Use ?
 
 Selection sort is appropriate when:
 

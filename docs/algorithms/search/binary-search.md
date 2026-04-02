@@ -2,7 +2,7 @@
 
 Binary search is an efficient searching algorithm that finds the position of a target value within a **sorted** array. It works by repeatedly dividing the search interval in half, comparing the target with the middle element, and eliminating half of the remaining elements at each step.
 
-## Algorithm Description
+## Description
 
 Binary search works by maintaining two pointers (minIndex and maxIndex) that define the current search range. The algorithm:
 
@@ -53,7 +53,7 @@ const binarySearch = (arr, target) => {
 export default binarySearch;
 ```
 
-## Test Cases
+### Test Cases
 
 View the [binary search tests](https://github.com/kostyngricuk/patterns-algorithms-and-data-structures/blob/master/examples/algorithms/search/binarySearch/index.test.js) on GitHub.
 
@@ -81,7 +81,7 @@ The implementation includes comprehensive test cases that verify:
    binarySearch(arr, 1); // Returns -1 (even though 1 exists)
    ```
 
-## When to Use Binary Search
+## When to Use ?
 
 Binary search is appropriate when:
 

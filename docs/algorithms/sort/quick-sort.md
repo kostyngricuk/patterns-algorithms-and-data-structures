@@ -2,7 +2,7 @@
 
 Quick sort is a highly efficient divide-and-conquer sorting algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two subarrays according to whether they are less than or greater than the pivot. The subarrays are then sorted recursively.
 
-## Algorithm Description
+## Description
 
 Quick sort follows the divide-and-conquer approach:
 
@@ -115,7 +115,7 @@ The implementation includes comprehensive test cases that verify:
 
 6. **Non-destructive sorting:** Does not mutate the original array
 
-## When to Use Quick Sort
+## When to Use ?
 
 Quick sort is appropriate when:
 

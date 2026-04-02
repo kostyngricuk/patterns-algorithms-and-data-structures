@@ -2,7 +2,7 @@
 
 Merge sort is a stable, comparison-based divide-and-conquer sorting algorithm. It works by recursively dividing the array into two halves, sorting each half, and then merging the sorted halves back together. It's known for its consistent O(n log n) performance regardless of the input data.
 
-## Algorithm Description
+## Description
 
 Merge sort follows the divide-and-conquer paradigm:
 
@@ -122,7 +122,7 @@ The implementation includes comprehensive test cases that verify:
 
 7. **Non-destructive sorting:** Does not mutate the original array
 
-## When to Use Merge Sort
+## When to Use ?
 
 Merge sort is appropriate when:
 

@@ -6,8 +6,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'PAaDS',
-  tagline: 'Patterns, Algorithms, and Data Structures',
+  title: 'Patterns, Algorithms and Data Structures',
+  tagline: 'Comprehensive guide to fundamental computer science concepts with practical JavaScript implementations.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -64,10 +64,22 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          type: 'doc',
+          docId: '/patterns',
           position: 'left',
-          label: 'Documentation',
+          label: 'Patterns',
+        },
+        {
+          type: 'doc',
+          docId: '/algorithms',
+          position: 'left',
+          label: 'Algorithms',
+        },
+        {
+          type: 'doc',
+          docId: '/data-structures',
+          position: 'left',
+          label: 'Data Structures',
         },
         {
           href: 'https://github.com/kostyngricuk/patterns-algorithms-and-data-structures',
@@ -78,7 +90,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()}. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}. Kanstantsin Hrytsuk.`,
     },
     prism: {
       theme: prismThemes.github,
