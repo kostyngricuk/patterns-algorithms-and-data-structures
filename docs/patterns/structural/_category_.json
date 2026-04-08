@@ -1,0 +1,9 @@
+{
+  "label": "Structural",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "slug": "/patterns/structural",
+    "description": "Patterns that deal with object composition and relationships"
+  }
+}

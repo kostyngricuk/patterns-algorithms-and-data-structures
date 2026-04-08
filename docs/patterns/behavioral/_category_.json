@@ -1,0 +1,9 @@
+{
+  "label": "Behavioral",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "slug": "/patterns/behavioral",
+    "description": "Patterns that deal with communication between objects"
+  }
+}
