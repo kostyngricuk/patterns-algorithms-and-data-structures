@@ -1,6 +1,6 @@
 # Singleton
 
-Short description
+The pattern is a class or an object has only one instance and provides a global point of access to it.
 
 ## Description
 
@@ -9,7 +9,10 @@ Detail description
 ## Implementation
 
 ```js
-// example in JS
+const pet = {
+  weight: 2,
+  age: 5, 
+}
 ```
 
 ### Test cases
@@ -20,7 +23,9 @@ Detail description
 
 ## When to Use ?
 
-...
+- You need exactly one shared instance (e.g., config, logger, database connection)
+- Avoid creating multiple objects that should be centralized
+- Maintain shared state across your app
 
 ## Advantages and Disadvantages
 
