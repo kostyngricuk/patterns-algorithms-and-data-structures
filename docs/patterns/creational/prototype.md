@@ -4,70 +4,71 @@ Creates new objects by cloning an existing instance instead of building from scr
 
 ## Description
 
-Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes. The original object exposes a `clone()` method that produces a duplicate. This is especially useful when object creation is expensive (e.g. involves complex setup, API calls, or deep nesting) and you need many similar instances with small variations.
+The Prototype pattern leverages JavaScript's native prototype object to share properties and methods among many objects of the same type. Every object in JavaScript has access to a prototype through the prototype chain — when a property isn't found directly on an object, JavaScript walks down the chain looking for it. This allows multiple instances to share behavior without duplicating methods in memory. Properties can even be added to the prototype after objects are created, making them immediately available to all existing instances. The pattern can be implemented using ES6 classes (where class methods are automatically added to the prototype) or `Object.create()` for explicit prototype-based inheritance.
 
 ## Implementation
 
 ```js
-class Shape {
-  constructor({ type, x = 0, y = 0, color = 'black' } = {}) {
-    this.type = type;
-    this.x = x;
-    this.y = y;
-    this.color = color;
+// Class with methods shared via the prototype
+class Dog {
+  constructor(name) {
+    this.name = name;
   }
 
-  clone() {
-    // Creates a new instance with the same property values
-    return new Shape({
-      type: this.type,
-      x: this.x,
-      y: this.y,
-      color: this.color,
-    });
-  }
-
-  toString() {
-    return `${this.color} ${this.type} at (${this.x}, ${this.y})`;
+  bark() {
+    return `Woof!`;
   }
 }
 
-// Registry that stores pre-configured prototypes
-class ShapeRegistry {
-  constructor() {
-    this._prototypes = {};
+const dog1 = new Dog('Daisy');
+const dog2 = new Dog('Max');
+const dog3 = new Dog('Spot');
+
+// All instances share the same bark method via the prototype
+// rather than each having its own copy
+
+// Adding a method to the prototype after creation
+Dog.prototype.play = function () {
+  return `${this.name} is playing now!`;
+};
+
+// Inheritance via extends — SuperDog gets Dog's prototype chain
+class SuperDog extends Dog {
+  constructor(name) {
+    super(name);
   }
 
-  register(name, prototype) {
-    this._prototypes[name] = prototype;
-  }
-
-  get(name) {
-    const proto = this._prototypes[name];
-    if (!proto) {
-      throw new Error(`Prototype "${name}" not found`);
-    }
-    return proto.clone();
+  fly() {
+    return `${this.name} is flying!`;
   }
 }
+
+// Object.create — explicit prototype-based inheritance
+const dog = {
+  bark() {
+    return 'Woof!';
+  },
+};
+
+const pet1 = Object.create(dog);
 ```
 
 ## When to Use ?
 
-- Object creation is expensive and you want to avoid repeating the setup cost.
-- You need many objects that differ only slightly from a common template.
-- You want to decouple your code from the concrete classes of objects it copies.
+- You want many objects to share methods without duplicating them in memory.
+- You need to add or modify shared behavior for all instances at once.
+- You want to set up inheritance chains between objects.
 
 ## Advantages and Disadvantages
 
 **Advantages:**
 
-- Clones objects without coupling to their concrete classes.
-- Avoids repeated expensive initialization — clone a pre-built prototype instead.
-- Simplifies creation of complex objects with pre-configured defaults via a prototype registry.
+- Memory efficient — methods are shared on the prototype rather than duplicated per instance.
+- Dynamic — properties added to the prototype are immediately available to all existing instances.
+- Native to JavaScript — works naturally with classes, `extends`, and `Object.create()`.
 
 **Disadvantages:**
 
-- Cloning objects with circular references can be tricky.
-- Deep cloning nested objects requires extra care to avoid shared references.
-- Each class must implement its own `clone()` method.
+- Prototype chain lookups can be confusing to debug.
+- Modifying a built-in prototype (e.g. `Array.prototype`) can cause unexpected side effects.
+- Readability can suffer when properties come from deep prototype chains.
